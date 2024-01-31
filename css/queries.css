@@ -70,6 +70,9 @@
   .hero-img-box {
     text-align: center;
   }
+  .hero-img-box {
+    min-height: 30rem;
+  }
   .section-about {
     background: linear-gradient(
       to bottom,
