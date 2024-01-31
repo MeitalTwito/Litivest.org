@@ -63,6 +63,9 @@
     padding: 0 8rem;
     gap: 6.4rem;
   }
+  .main-heading {
+    font-size: 5.2rem;
+  }
   .hero-img {
     width: 60%;
   }
@@ -72,6 +75,7 @@
   }
   .hero-img-box {
     min-height: 30rem;
+    width: 100%;
   }
   .section-about {
     background: linear-gradient(
