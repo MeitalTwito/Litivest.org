@@ -31,7 +31,7 @@
 .main-nav-link:visited {
   display: inline-block;
   text-decoration: none;
-  color: #e9e1dc;
+  color: var(--main-light);
   font-weight: 500;
   font-size: 2rem;
   transition: all 0.3s;
@@ -39,7 +39,7 @@
 
 .main-nav-link:hover,
 .main-nav-link:active {
-  color: #b9a884;
+  color: var(--heading-primary);
 }
 
 .main-nav-link.nav-cta:link,
@@ -47,7 +47,7 @@
   padding: 1.2rem 2.4rem;
   border-radius: 50px;
   color: #fff;
-  background-color: #b9a884;
+  background-color: var(--heading-primary);
 }
 
 .main-nav-link.nav-cta:hover,
@@ -93,7 +93,7 @@
 /* HERO SECTION */
 /* ************************** */
 .section-hero {
-  background-color: #173240;
+  background-color: var(--main-dark);
   color: #e9e1dc;
   padding: 4.8rem 0 9.6rem 0;
 }
@@ -204,12 +204,21 @@
 /* ************************** */
 .section-how {
   padding: 9.6rem 0;
+  background-color: var(--main-light);
+}
+.how-description {
+  font-size: 2.4rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+.step-text-box {
+  height: 100%;
 }
 
 .step-number {
   font-size: 8.6rem;
   font-weight: 600;
-  color: #f0eae4;
+  color: #cec2a9;
 }
 
 .step-description {
