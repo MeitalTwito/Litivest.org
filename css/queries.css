@@ -63,9 +63,7 @@
     padding: 0 8rem;
     gap: 6.4rem;
   }
-  .main-heading {
-    font-size: 5.2rem;
-  }
+
   .hero-img {
     width: 60%;
   }
@@ -224,6 +222,9 @@
   }
   .section-hero {
     padding: 2.4rem 0 6.4rem 0;
+  }
+  .main-heading {
+    font-size: 5.2rem;
   }
   .hero-img {
     width: 80%;
